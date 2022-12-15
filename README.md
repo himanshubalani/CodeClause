@@ -28,7 +28,7 @@ To run any of the programs -
   ```
 3. Paste this command-
   ````
-  python3 main.py
+  py main.py
   ````
   
 ## Credit-
