@@ -1,7 +1,20 @@
-import pyfiglet
 import operations as op
 
-pyfiglet.print_figlet("CodeClause Calciulator", font="doom")
+print('''
+/  __ \         | |    /  __ \ |
+| /  \/ ___   __| | ___| /  \/ | __ _ _   _ ___  ___
+| |    / _ \ / _` |/ _ \ |   | |/ _` | | | / __|/ _ |
+| \__/\ (_) | (_| |  __/ \__/\ | (_| | |_| \__ \  __/
+ \____/\___/ \__,_|\___|\____/_|\__,_|\__,_|___/\___|
+
+
+ _____       _             _       _
+/  __ \     | |           | |     | |
+| /  \/ __ _| | ___  _   _| | __ _| |_ ___  _ __
+| |    / _` | |/ __|| | | | |/ _` | __/ _ \| '__|
+| \__/\ (_| | | (__|| |_| | | (_| | || (_) | |
+ \____/\__,_|_|\___|\__,_/|_|\__,_|\__\___/|_|
+ ''')
 
 print("Choose an operation.")
 print("1.Add")
@@ -13,6 +26,7 @@ print("6.Square root")
 print("7.Sine")
 print("8.Cosine")
 print("9.Tangent")
+print("10.Exit")
 
 choice = input("Enter choice(1/2/3/4/5/6/7/8/9):")
 
@@ -62,6 +76,9 @@ elif choice == '8':
 elif choice == '9':
 	num1 = inpnum1()
 	print("Tangent of",num1,"=", op.tangent(num1))
+
+elif choice == '10':
+	exit()
 
 else:
 	print("Invalid input")
