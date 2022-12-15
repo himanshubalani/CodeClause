@@ -28,3 +28,5 @@ To run any of the programs -
   python3 main.py
   ````
   
+## Credit-
+<a href = "https://lnk.bio/z2lx"> <img src="https://github.com/himanshubalani/nameheaders/blob/main/Github%20Python.png"> </a>
