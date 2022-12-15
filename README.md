@@ -22,8 +22,11 @@ These are my Internship Projects
   
 ## Run
 To run any of the programs -
-1. Open the project folder in terminal.
-2. Paste this command-
+1. Open the project folder in terminal. It should look something like
+  ```
+  .../CodeClause/PROJECT_NAME/
+  ```
+3. Paste this command-
   ````
   python3 main.py
   ````
